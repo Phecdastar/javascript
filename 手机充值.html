@@ -1,0 +1,42 @@
+<html>
+    <head>
+        <script>
+        function myselect(num){
+            document.form1.price.value=num*0.95;
+        }
+        </script>
+    </head>
+    <body>
+        <form name='form1' method='post' action=''>
+         <table width='277' border='1' >
+            <tr>
+                <td width='93'><div align='right'>充值的手机号码</div></td>
+                <td width='168'><label>
+                    <input type='text' name='textfield'>
+                </label></td>
+            </tr>
+            <tr>
+                <td colspan='2'>秒杀价打9.5折</td>
+            </tr>
+            <tr>
+                <td colspan='2'>
+                        <input name='radiobutton' type='radio' value='100' checked onclick='myselect(this.value)'>100元
+                        <input name='radiobutton' type='radio' value='50' checked onclick='myselect(this.value)'>50元
+                        <input name='radiobutton' type='radio' value='30' checked onclick='myselect(this.value)'>30元
+                </td>
+            </tr>
+            <tr>
+                <td>折后价</td>
+                <td>
+                    <input name='price' type='text' value='95'>
+                </td>
+            </tr>
+         </table>   
+        </form>
+    </body>
+</html>
+<script type="txet/javascirpt">
+function add(){
+    num 1 = Number()
+}
+</script>
